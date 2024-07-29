@@ -6,7 +6,7 @@
 /*   By: lespenel <lespenel@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/14 04:10:41 by lespenel          #+#    #+#             */
-/*   Updated: 2024/01/29 19:06:11 by lespenel         ###   ########.fr       */
+/*   Updated: 2024/07/29 03:38:46 by lespenel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,9 +38,9 @@ t_key_func	get_key_func(int keycode)
 	const t_key		key[] = {{W_KEY, ft_up_scale}, {S_KEY, ft_down_scale}, \
 	{RIGHT_ARROW, translate_right}, {LEFT_ARROW, translate_left}, \
 	{DOWN_ARROW, translate_down}, {UP_ARROW, translate_up}, {PLUS_KEY, up_z}, \
-	{MINUS_KEY, minus_z}, {NUM_4, rotate_y}, {NUM_2, rotate_x}, \
-	{NUM_7, rotate_z}, {NUM_8, rotate_x_minus}, {NUM_6, rotate_y_minus}, \
-	{NUM_9, rotate_z_minus}, {I_KEY, rotate_iso}};
+	{MINUS_KEY, minus_z}, {NUM_6, rotate_y}, {NUM_8, rotate_x}, \
+	{NUM_9, rotate_z}, {NUM_2, rotate_x_minus}, {NUM_4, rotate_y_minus}, \
+	{NUM_7, rotate_z_minus}, {I_KEY, rotate_iso}};
 
 	i = 0;
 	while (i != 15)
