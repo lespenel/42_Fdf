@@ -1,8 +1,9 @@
-## FDF - Wireframe Model of a 3D Landscape!
-![Screenshot_20240727_013648-2](https://github.com/user-attachments/assets/09ff4d95-19ea-4a6a-b7f2-9d4fcd865926)
+## FDF - Wireframe Model of a 3D Landscape
 
-FDF (fil de fer) is a project aimed at creating a wireframe model of a 3D landscape.
-This project introduces the basics of computer graphics programming using the MiniLibX library, focusing on rendering and managing 3D scenes in C.
+<td><image src="./screenshot/t1.png"></image></td>
+
+FDF is a project aimed at creating a wireframe model of a 3D landscape.
+This project introduces the basics of computer graphics programming using the MiniLibX library, Bresenham's line algorithm, transformation matrix, focusing on rendering and managing 3D scenes in C.
 
 ## Usage
 
@@ -23,8 +24,8 @@ This project introduces the basics of computer graphics programming using the Mi
 - **Numpad 8**: Rotate around the X-axis (upwards)
 - **Numpad 4**: Rotate around the Y-axis (left)
 - **Numpad 6**: Rotate around the Y-axis (right)
-- **Numpad 1**: Rotate around the Z-axis (counterclockwise)
-- **Numpad 3**: Rotate around the Z-axis (clockwise)
+- **Numpad 7**: Rotate around the Z-axis (counterclockwise)
+- **Numpad 9**: Rotate around the Z-axis (clockwise)
 
 ### Scaling
 - **Z**: Scale up the model
